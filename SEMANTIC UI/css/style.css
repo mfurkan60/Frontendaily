@@ -1,0 +1,78 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+title,
+header {
+    font-family: sans-serif !important
+}
+
+/* Main Seciton */
+.sc-logo {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    line-height: 70px;
+    font-size: 26px;
+    text-align: center;
+    border: 1px solid #4183C4;
+    border-radius: 50%;
+    color: #4183C4
+}
+
+.sc-main {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+        url(../img/hero.jpg) no-repeat, 50% 50% !important;
+    background-size: cover !important;
+    position: relative;
+    text-align: center
+}
+
+.sc-main {
+    min-height: 100vh
+}
+
+.sc-header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.fixed {
+    /*Üst navbar için */
+    background-color: rgb(0, 0, 0, 0.7) !important;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 8% !important;
+    padding-right: 8% !important
+}
+
+.toc.item {
+    display: none !important
+}
+
+.fixed .sc-logo {
+    cursor: pointer !important;
+}
+
+h1.ui.header {
+    font-size: 5rem;
+    font-weight: 200;
+    letter-spacing: 5px
+}
+.ui.text.sc-header-content.container > a{
+    padding-right: 1em !important
+ }
+.sc-button{
+    border:1px solid #4183C4 !important
+}
+.sc-button:hover{
+    transition: 0.7 all !important;
+    background-color: transparent !important;
+    border: 1px solid #4183C4 !important;
+    color: #4183C4 !important
+}
