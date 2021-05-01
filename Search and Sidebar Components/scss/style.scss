@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+    //resetleme işlemi
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border:none;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+
+    &:focus{
+        outline:0;
+    }
+
+}
+
+body{
+    background-color: #202035;
+    padding: 50px;
+
+}
+.component{
+    background-color: #1B1B30;
+    border-radius: 10px;
+    &--help{
+       background-color: #1B1B30;
+       border-radius: 10px;
+       padding: 40px 50px; 
+
+       h3{
+           color: #BBBBD7;
+           margin-bottom: 25px;
+           font-weight: normal;
+           font-size: 35px;
+       }
+
+       form{
+           width: 100%;
+           input{
+               width: 100%;
+               border-radius: 5px;
+               padding: 0px 40px 0px 74px;
+               font-size: 18px;
+               color: #fff;
+            height: 71px;
+            background-color:#46383b ;
+                &::placeholder{
+                    color: rgba(#fff,.6);
+                }
+
+           }
+           
+       }
+    }
+
+    &--sidebar{
+        margin-left: 55px;
+        margin-top: 25px;
+        width: 307px;
+        padding: 30px;
+        h5{
+       color: #ddd;
+      
+       font-size: 18px;
+       margin-bottom: 15px;
+
+        }
+        hr{
+            background-color: #141428;
+            height: 2px;
+            margin: 25px 0px;
+
+
+        }
+    
+        nav{
+            ul{
+                li{
+                    a{
+                        display: block;
+                        font-size: 16px;
+                        color: #786CD5;
+
+                            padding: 5px 0px
+
+                    }
+                }
+            }
+        }
+    
+        p{
+            font-size: 16px;
+            color:#fff;
+        
+        }
+        .button{
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #786CD5;
+            margin-top: 15px;
+        }
+    }
+
+}
+
+ 
